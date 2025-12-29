@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<plist version="1.0">
+<dict>
+
+  <!-- ===== Wi-Fi Payload ===== -->
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <!-- 接続動作 -->
+      <key>AutoJoin</key>
+      <true/>
+
+      <!-- 暗号方式（WPA2を明示） -->
+      <key>EncryptionType</key>
+      <string>WPA2</string>
+
+      <!-- ステルスSSIDではない -->
+      <key>HIDDEN_NETWORK</key>
+      <false/>
+
+      <!-- Wi-Fi設定 -->
+      <key>SSID_STR</key>
+      <string>kokko_noi</string>
+
+      <key>Password</key>
+      <string>kokko1234</string>
+
+      <!-- Payload metadata -->
+      <key>PayloadType</key>
+      <string>com.apple.wifi.managed</string>
+
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>PayloadIdentifier</key>
+      <string>com.kokko.wifi.kokko_noi</string>
+
+      <key>PayloadUUID</key>
+      <string>39E5A3D6-23A2-4B17-8D44-884A70C5BEE3</string>
+
+      <key>PayloadDisplayName</key>
+      <string>Kokko Wi-Fi</string>
+
+      <key>PayloadDescription</key>
+      <string>Kokko Wi-Fi automatic connection</string>
+    </dict>
+  </array>
+
+  <!-- ===== Profile metadata ===== -->
+  <key>PayloadType</key>
+  <string>Configuration</string>
+
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+
+  <key>PayloadIdentifier</key>
+  <string>com.kokko.profile.kokko_wifi</string>
+
+  <key>PayloadUUID</key>
+  <string>AB39A0D2-F8F4-4C60-B2E1-77F0C365F2B1</string>
+
+  <key>PayloadDisplayName</key>
+  <string>Kokko Wi-Fi Auto Setup</string>
+
+  <key>PayloadDescription</key>
+  <string>Install this profile to automatically connect to Kokko Wi-Fi</string>
+
+  <key>PayloadOrganization</key>
+  <string>Kokko Network</string>
+
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+
+</dict>
+</plist>
